@@ -14,8 +14,8 @@ const Mapa = () => {
             new Map({
                 container: 'mapContainer',
                 style: 'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL', // stylesheet location
-                center: [-74.5, 40], // starting position [lng, lat]
-                zoom: 5 // starting zoom
+                center: [-58.45, -34.62], // starting position [lng, lat]
+                zoom: 12 // starting zoom
             })
         )
     }, [])
